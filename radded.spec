@@ -12,12 +12,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-radded! jest dodatkiem do Epic/LiCe, ³±cz±cym najciekawsze cechy
-innych dodatków takich jak wolf czy VoiD.
+radded! is an Epic/LiCe addon, bringing you the most useful features
+from other LiCe addons like wolf or VoiD.
 
 %description -l pl
-radded! is an Epic/LiCe addon, bringing you the most usefull features
-from other LiCe addons like wolf or VoiD.
+radded! jest dodatkiem do Epic/LiCe, ³±cz±cym najciekawsze cechy
+innych dodatków takich jak wolf czy VoiD.
 
 %prep
 %setup -q -a 0 -n .irc
