@@ -3,7 +3,7 @@ Summary(pl):	G³upi dodatek do LiCe
 Summary(de):	Dumm der Zusat für LiCe
 Name:		radded
 Version:	1.5pre2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Communications
 Source0:	http://www.baseciq.org/radded/radded/%{name}-%{version}.tar.gz
@@ -42,4 +42,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc radded.readme.txt
 %{_datadir}/epic/script/*.scr
 %{_datadir}/epic/script/*.reasons
-%{_datadir}/epic/script/themes
+%{_datadir}/epic/script/themes/*
