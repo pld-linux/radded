@@ -7,6 +7,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Communications
 Source0:	http://radded.baseciq.org/radded/%{name}-%{version}.tar.gz
+# Source0-md5:	b55f2f83bae63a4229b61ab5ca134dca
 URL:		http://radded.baseciq.org/
 Requires:	lice
 BuildArch:	noarch
