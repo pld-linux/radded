@@ -2,18 +2,18 @@ Summary:	Stupid addon for LiCe
 Summary(pl):	G³upi dodatek do LiCe
 Name:		radded
 Version:	1.5pre2
-Release:	1	
+Release:	1
 License:	GPL
 Group:		Applications/Communications
-Source0:	http://www.baseciq.org/radded/radded/radded-1.5pre2.tar.gz
+Source0:	http://www.baseciq.org/radded/radded/%{name}-%{version}.tar.gz
 URL:		http://www.baseciq.org/radded/
-Requires:	lice	
+Requires:	lice
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-radded! jest dodatkiem do Epic/LiCe, ³±cz±cym najciekawsze cechy innych
-dodatków takich jak wolf czy VoiD.
+radded! jest dodatkiem do Epic/LiCe, ³±cz±cym najciekawsze cechy
+innych dodatków takich jak wolf czy VoiD.
 
 %description -l pl
 radded! is an Epic/LiCe addon, bringing you the most usefull features
@@ -34,7 +34,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc radded.readme.txt 
+%doc radded.readme.txt
 %{_datadir}/epic/script/*.scr
 %{_datadir}/epic/script/*.reasons
 %{_datadir}/epic/script/themes
