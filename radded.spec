@@ -2,8 +2,8 @@ Summary:	Stupid addon for LiCe
 Summary(pl):	G³upi dodatek do LiCe
 Summary(de):	Dumm der Zusat für LiCe
 Name:		radded
-Version:	1.5pre2
-Release:	2
+Version:	1.5pre3
+Release:	1
 License:	GPL
 Group:		Applications/Communications
 Source0:	http://www.baseciq.org/radded/radded/%{name}-%{version}.tar.gz
