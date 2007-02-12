@@ -1,6 +1,6 @@
 Summary:	Stupid addon for LiCe
-Summary(pl.UTF-8):   Głupi dodatek do LiCe
-Summary(de.UTF-8):   Dumm der Zusat für LiCe
+Summary(pl.UTF-8):	Głupi dodatek do LiCe
+Summary(de.UTF-8):	Dumm der Zusat für LiCe
 Name:		radded
 Version:	1.5pre6
 Release:	2
