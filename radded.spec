@@ -1,6 +1,6 @@
 Summary:	Stupid addon for LiCe
-Summary(pl):	G³upi dodatek do LiCe
-Summary(de):	Dumm der Zusat für LiCe
+Summary(pl.UTF-8):   GÅ‚upi dodatek do LiCe
+Summary(de.UTF-8):   Dumm der Zusat fÃ¼r LiCe
 Name:		radded
 Version:	1.5pre6
 Release:	2
@@ -17,13 +17,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 radded! is an Epic/LiCe addon, bringing you the most useful features
 from other LiCe addons like wolf or VoiD.
 
-%description -l de
-radded! ist der Zusatz für Epic/LiCe, verbindend die Zunften am
+%description -l de.UTF-8
+radded! ist der Zusatz fÃ¼r Epic/LiCe, verbindend die Zunften am
 interessansten anderes die Zusatzen z.B. Wolf oder VoiD
 
-%description -l pl
-radded! jest dodatkiem do Epic/LiCe, ³±cz±cym najciekawsze cechy
-innych dodatków takich jak wolf czy VoiD.
+%description -l pl.UTF-8
+radded! jest dodatkiem do Epic/LiCe, Å‚Ä…czÄ…cym najciekawsze cechy
+innych dodatkÃ³w takich jak wolf czy VoiD.
 
 %prep
 %setup -q -a 0 -n .irc
